@@ -12,7 +12,7 @@
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX">
+    <XCODE_MAC targetFolder="Builds/MacOSX" xcodeValidArchs="i386,x86_64">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" targetName="HelloWorld"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="HelloWorld"/>
